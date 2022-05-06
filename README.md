@@ -6,14 +6,6 @@ A simple smart contract that allows reading and writing text metadata. Built usi
 
 ---
 
-## Table of Contents
-
-- [Technologies](#technologies)
-- [How to Get Started](#how-to-use)
-- [References](#references)
-
----
-
 ## Technologies
 
 - Solidity
@@ -23,9 +15,22 @@ A simple smart contract that allows reading and writing text metadata. Built usi
 - JavaScript
 - Node.js
 
+
+
 ---
 
 ## How to Get Started
+
+
+- [Setting Up Accounts](#technologies)
+- [Install Dependencies](#install-dependencies)
+- [Configuring .env](#configuring-env)
+- [Deploying Contract](#deploying-contract)
+- [Verifying Contract](#verifying-contract)
+
+---
+
+
 
 
 ### Setting Up Accounts
@@ -38,7 +43,7 @@ You will need 3 different accounts:
 2. Once you have the extension installed, create an acount.
 3. With the account created, open MetaMask and switch to the Ropsten Test Network.
 4. Create a new wallet and take note of the Public Key.
-5. With your Public Key, submit it into the [Ropsten Faucet](https://faucet.dimensions.network/) to receive Test Ether.
+5. With your Public Key, submit it into any [Ropsten Faucet](https://faucet.dimensions.network/) to receive Test Ether.
 6. Take note of your Private Key found in your Wallet under Account Details.
 
 #### Etherscan
@@ -58,12 +63,12 @@ npm install --save-dev @nomiclabs/hardhat-ethers "ethers@^5.0.0"
 npm install --save-dev @nomiclabs/hardhat-etherscan
 ```
 
-### Setting Up .env
+### Configuring .env
 1. Create a .env file in the root directory, using this command:
 ```
 npm install dotenv --save
 ```
-2. Inside the .env file paste this content:
+2. Inside the .env file paste these configurations with your details:
 ```javascript
 PRIVATE_KEY = "Your MetaMask Private Key"
 
@@ -80,7 +85,7 @@ CONTRACT_ADDRESS = "Leave empty for now"
 
 ### Deploying Contract
 You are now ready to deploy the contract. 
-1. To deploy run this command:
+1. To deploy, run this command:
 ```
 npx hardhat run scripts/deploy.js --network ropsten
 ```
