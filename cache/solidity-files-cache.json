@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/emonsahaba/Documents/Workspaces/crypto/hello-world/contracts/HelloWorld.sol": {
+      "lastModificationDate": 1650773716146,
+      "contentHash": "4eda7804ccf1b940405e009d7bc5a3f2",
+      "sourceName": "contracts/HelloWorld.sol",
+      "solcConfig": {
+        "version": "0.8.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.1"
+      ],
+      "artifacts": [
+        "HelloWorld"
+      ]
+    }
+  }
+}
