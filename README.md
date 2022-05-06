@@ -50,8 +50,19 @@ You will need 3 different accounts:
 3. Once the app is created, view the key.
 4. Take note of the API Key and HTTP.
 
+### Install Dependencies
+
+```
+npm install --save-dev hardhat
+npm install --save-dev @nomiclabs/hardhat-ethers "ethers@^5.0.0"
+npm install --save-dev @nomiclabs/hardhat-etherscan
+```
+
 ### Setting Up .env
-1. Create a .env file in the root directory.
+1. Create a .env file in the root directory, using this command:
+```
+npm install dotenv --save
+```
 2. Inside the .env file paste this content:
 ```javascript
 PRIVATE_KEY = "Your MetaMask Private Key"
@@ -65,18 +76,20 @@ CONTRACT_ADDRESS = "Leave empty for now"
 ```
 *(Make sure to include the double quotes)*
 
+
+
 ### Deploying Contract
 You are now ready to deploy the contract. 
 1. To deploy run this command:
 ```
 npx hardhat run scripts/deploy.js --network ropsten
 ```
-2. Once deployed, the terminal will return a line that looks like this:
+2. Once deployed, the terminal will return this line:
 ```
 Contract was deployed to address:  
 0x0000000000000000000000000000000000000000
 ```
-3. Use this address and paste it into the CONTRACT_ADDRESS line of your .env file.
+3. Use the given address and paste it into the CONTRACT_ADDRESS line of your .env file.
 
 ### Verifying Contract
 After deploying the contract, you can finally verify the contract.
@@ -88,7 +101,6 @@ npx hardhat verify --network ropsten 0x0000000000000000000000000000000000000000 
 
 2. You should be returned something like this:
 ```
-Nothing to compile
 Successfully submitted source code for contract
 contracts/HelloWorld.sol:HelloWorld at 0x0000000000000000000000000000000000000000
 for verification on the block explorer. Waiting for verification result...
