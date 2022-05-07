@@ -113,7 +113,7 @@ for verification on the block explorer. Waiting for verification result...
 Successfully verified contract HelloWorld on Etherscan.
 https://ropsten.etherscan.io/address/0x0000000000000000000000000000000000000000#code
 ```
-3. **Congratulations!** You just made your Hello World Smart Contract. You can now follow the link and see the source code on Etherscan. 
+3. **Congratulations!** You just made your first smart contract. You can now follow the link and see the source code on Etherscan. 
 ---
 
 ## References
