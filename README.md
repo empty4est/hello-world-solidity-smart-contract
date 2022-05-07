@@ -1,6 +1,6 @@
 # Hello World Solidity Smart Contract
 
-A simple smart contract that allows reading and writing text metadata. Built using solidity smart contracts. Deployed and verified on Ethereum's Ropsten Testnet.
+A simple smart contract that allows reading and writing text metadata. Built using Solidity. Deployed and verified on Ethereum's Ropsten Testnet.
 
 > [Feel free to interact with the contract on Etherscan.](https://ropsten.etherscan.io/address/0x01dF58cCb7e14244f72D1024A93A236B40Ad3073#code)
 
