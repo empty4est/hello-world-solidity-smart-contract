@@ -121,4 +121,4 @@ https://ropsten.etherscan.io/address/0x0000000000000000000000000000000000000000#
 [This project was built following a great tutorial provided by Alchemy.](https://www.youtube.com/watch?v=g73EGNKatDw&list=PLMj8NvODurfGgDJG-qQWyKtqTxJyRGI0i)
 
 ---
-[Back To The Top](#hello-world-solidity-smart-contract)
+[Back To The Top](#leave-a-message)
